@@ -1,8 +1,15 @@
+Task1:
+└── segmentation.py
+Task2:
+└── video_segmentation_yolov8.py
+Task3:
+└── video_frame_extractor.py
+
 Task Details:
 
 Task 1: Semantic Segmentation Overlay
 
-**File**: `semantic_segmentation_visualizer.py`
+**File**: `segmentation.py`
 
 - Visualizes model-predicted segmentation masks by overlaying them on original images.
 - Color maps help distinguish different classes in the segmented output.
@@ -11,7 +18,7 @@ Task 1: Semantic Segmentation Overlay
 
 Task 2: YOLOv8 Detection Visualization
 
-**File**: `yolov8_bbox_drawer.py`
+**File**: `video_segmentation_yolov8.py`
 
 - Parses YOLO-formatted `.txt` annotation files.
 - Draws bounding boxes and confidence scores on the image using OpenCV.
