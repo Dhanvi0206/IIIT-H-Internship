@@ -1,8 +1,13 @@
 Task1:
+
 └── segmentation.py
+
 Task2:
+
 └── video_segmentation_yolov8.py
+
 Task3:
+
 └── video_frame_extractor.py
 
 Task Details:
