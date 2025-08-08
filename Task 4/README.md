@@ -18,15 +18,10 @@ Each .txt file corresponds to an image and contains:
 class_id  x_center  y_center  width  height
 
 3️⃣ Dataset Structure                                       
-dataset/
-├── images/
-│   ├── train/
-│   ├── val/
-│   ├── test/
-├── labels/
-│   ├── train/
-│   ├── val/
-│   ├── test/
+dataset:
+Images(Test,Train,Val)
+Labels(Test,Train,Val)
+
 
 -->YOLO Configuration: data.yaml file
 
