@@ -26,7 +26,7 @@ Labels(Test,Train,Val)
 
 #Training/Run-                                     
 ->Install YOLO:               
-pip install ultralytics                                                 
+pip install ultralytics                                                                                        
 ->Train the Model:                                                 
 yolo detect train data=data.yaml model=yolov8n.pt epochs=15 imgsz=100                
 ->Run inference on an image:                                          
