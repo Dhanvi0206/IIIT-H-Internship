@@ -1,11 +1,12 @@
 YOLO Custom Object Detection – Sports & Players Dataset
 
-Task Overview:
+#Task Overview:
 This project demonstrates the end-to-end pipeline for building a custom YOLO object detection model.
 We created our own dataset, annotated sports-related objects and persons, and trained YOLO to detect them.
 The model is capable of detecting multiple players and sports equipment in images.
 
-Dataset Preparation
+#Dataset Preparation:
+
 1️⃣ Image Collection
 Gathered images from various sources to cover all 26 labels.
 Ensured multiple lighting, angles, and backgrounds for robust detection.
@@ -29,7 +30,7 @@ dataset/
 
 -->YOLO Configuration: data.yaml file
 
-🚀 Training
+#Training/Run-
 ->Install YOLO:
 pip install ultralytics
 ->Train the Model:
@@ -39,7 +40,7 @@ yolo detect predict model=runs/detect/train/weights/best.pt source=path/to/image
 ->Run evaluation on test set:
 yolo detect val model=runs/detect/train/weights/best.pt data=data.yaml split=test
 
-📊 Results
+#Results-
 *After training, the model can detect multiple players and sports equipment in real-time.
 *Metrics like mAP, Precision, and Recall are recorded in runs/detect/train/
 
