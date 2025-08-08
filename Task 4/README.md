@@ -30,15 +30,15 @@ dataset/
 
 -->YOLO Configuration: data.yaml file
 
-#Training/Run-
-->Install YOLO:
-pip install ultralytics
-->Train the Model:
-yolo detect train data=data.yaml model=yolov8n.pt epochs=15 imgsz=100
-->Run inference on an image:
-yolo detect predict model=runs/detect/train/weights/best.pt source=path/to/image.jpg
-->Run evaluation on test set:
-yolo detect val model=runs/detect/train/weights/best.pt data=data.yaml split=test
+#Training/Run-                                     
+->Install YOLO:               
+pip install ultralytics                                                 
+->Train the Model:                                                 
+yolo detect train data=data.yaml model=yolov8n.pt epochs=15 imgsz=100                
+->Run inference on an image:                                          
+yolo detect predict model=runs/detect/train/weights/best.pt source=path/to/image.jpg     
+->Run evaluation on test set:                                     
+yolo detect val model=runs/detect/train/weights/best.pt data=data.yaml split=test     
 
 #Results-
 *After training, the model can detect multiple players and sports equipment in real-time.
