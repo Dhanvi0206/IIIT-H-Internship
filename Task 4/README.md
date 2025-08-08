@@ -40,7 +40,7 @@ yolo detect predict model=runs/detect/train/weights/best.pt source=path/to/image
 ->Run evaluation on test set:                                     
 yolo detect val model=runs/detect/train/weights/best.pt data=data.yaml split=test     
 
-#Results-
+#Results-                                       
 *After training, the model can detect multiple players and sports equipment in real-time.
 *Metrics like mAP, Precision, and Recall are recorded in runs/detect/train/
 
