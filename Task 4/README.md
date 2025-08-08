@@ -17,7 +17,7 @@ Exported labels in YOLO format (.txt files).
 Each .txt file corresponds to an image and contains:
 class_id  x_center  y_center  width  height
 
-3️⃣ Dataset Structure
+3️⃣ Dataset Structure                                       
 dataset/
 ├── images/
 │   ├── train/
