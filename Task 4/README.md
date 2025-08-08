@@ -19,7 +19,7 @@ class_id  x_center  y_center  width  height
 
 3️⃣ Dataset Structure                                       
 dataset:
-Images(Test,Train,Val)
+Images(Test,Train,Val)                                        
 Labels(Test,Train,Val)
 
 
