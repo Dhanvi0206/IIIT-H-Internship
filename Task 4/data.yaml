@@ -1,0 +1,20 @@
+path: /Users/dhanviannam/Documents/IIIT H proj/Task 4/dataset
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 25
+
+names:
+  [
+    "Person", "Person1", "Person2", "Person3", "Weightlifting",
+    "Archery", "Shuttle", "Badminton", "Carroms", "Volleyball",
+    "Basketball", "Foil", "Icehockey", "Javelin", "Rugby",
+    "Chess", "Table Tennis Bat", "Tennis Bat", "Tennis Ball", "Stumps",
+    "Bat", "Ball", "Football", "Baseball Bat", "Person4"
+  ]
+
+
+
+
